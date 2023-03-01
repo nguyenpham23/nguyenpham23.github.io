@@ -3,12 +3,48 @@
     <head>
         <title>Personal Website</title>
         <link href="./stylesheet.css" rel="stylesheet">
+        <meta name="description" content="Nguyen Pham's personal website containing acedemic projects and hobbies">
     </head>
     <body>
         <div class="wrapper">
-            <h1>Welcome</h1>
-            <input oninput="toggleWordColor()" type="text" id="adjective-input"></input>
-            <button onclick="changeWord()">Click</button>
+            <h1>Personal Website</h1>
+            <a href="http:/www.linkedin.com/in/nguyen-d-pham">www.linkedin.com/in/nguyen-d-pham</a>
+        </div>
+        <div>
+            <h2 class="heading">Academic Projects</h2>
+            <p id="title">
+                EE302 Robot Car Project
+            </p>
+            <p id="body">
+                • Worked with a team to build a robot car using an Arduino board, IR distance sensors, and line following sensors <br>
+                • Coded the Arduino board using C++ to direct the robot car to follow the preplanned path limiting error and avoiding obstacles
+            </p>
+            <p id="title">
+                Mastermind (Text-based version)
+            </p>
+            <p id="body">
+                • Designed and implemented an Object-Oriented program with multiple classes to play a text-based version of Mastermind <br>
+                • Used Java programming to develop the game as well as terminal commands on Windows to run, test, and debug the program <br>
+                • Implemented a multiplayer option using multithreading and Java Socket Programming allowing playability from different devices
+            </p>
+            <p id="title">
+                Weather App
+            </p>
+            <p id="body">
+                • Designed a weather app in Android Studio using Java and XML to display current weather along with daily and weekly forecast <br>
+                • Used Open-Meteo API and Android location manager to retrieve accurate weather information from current time and location <br>
+                • Converted JSON data given by the API into Java class objects to manipulate and display data onto the application screen
+            </p>
+            <img src="app.png" width="200" height="400" class="center">
+        </div>
+        <div>
+            <h3 class="heading">Hobbies</h3>
+            <p id="body">
+                • Volleyball <br>
+                • Basketball <br>
+                • Gaming <br>
+                • Cuisines
+            </p>
         </div>
     </body>
 </html>
